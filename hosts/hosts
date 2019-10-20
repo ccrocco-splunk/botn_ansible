@@ -1,0 +1,7 @@
+[prod_gaming_hosts]
+alpha-vops-20191009-1.botn.me 
+54.219.145.148
+
+[prod_gaming_hosts:vars]
+ansible_user=ec2-user 
+ansible_ssh_private_key_file=/Users/ccrocco/Desktop/botn_playbooks/group_vars/all/idxbotn.pem

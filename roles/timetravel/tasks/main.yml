@@ -1,0 +1,11 @@
+---
+  - name: sudo to splunk
+    sudo: true
+    sudo_user: splunk
+    shell: cd ~/metrics-tt && ./shift_all.sh 1571452200 shiftinfo.csv > shifted.log
+           cd timetravel/ && nohup ./shift_all_throttled.sh 1571452200 episode_offsets.csv > log/shifted.log &
+    register: ps
+
+  - debug: msg={{ ps.stdout }}
+
+  - debug: var=ps

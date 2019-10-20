@@ -1,0 +1,7 @@
+---
+
+- name: start splunk
+  shell: sudo -H -u splunk /opt/splunk/bin/splunk start
+  ignore_errors: yes
+  become: yes
+  tags: splunk start

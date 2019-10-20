@@ -1,0 +1,6 @@
+---
+
+# credentials
+vault_srv_ad-pass: ad-service-password
+vault_splk_dft_cred: admin:webebotn
+vault_splk_adm: admin
