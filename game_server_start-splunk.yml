@@ -4,4 +4,8 @@
   sudo: yes
   roles:
     - splunk-start
+<<<<<<< HEAD
     - timetravel
+=======
+    - timetravel
+>>>>>>> 5e74920954787737f5893cd89935c4451976e8ab

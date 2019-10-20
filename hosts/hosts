@@ -1,7 +1,13 @@
 [prod_gaming_hosts]
+<<<<<<< HEAD
 od-botn-conf19-01.splunkoxygen.com
 od-botn-conf19-02.splunkoxygen.com
 od-botn-conf19-03.splunkoxygen.com
+=======
+3.83.219.57
+35.173.244.203
+34.227.15.222
+>>>>>>> 5e74920954787737f5893cd89935c4451976e8ab
 
 [prod_gaming_hosts:vars]
 ansible_user=ec2-user 
