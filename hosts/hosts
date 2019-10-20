@@ -1,6 +1,7 @@
 [prod_gaming_hosts]
-alpha-vops-20191009-1.botn.me 
-54.219.145.148
+3.83.219.57
+35.173.244.203
+34.227.15.222
 
 [prod_gaming_hosts:vars]
 ansible_user=ec2-user 
