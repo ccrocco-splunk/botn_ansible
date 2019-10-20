@@ -3,5 +3,5 @@
 - hosts: prod_gaming_hosts
   sudo: yes
   roles:
-    # - splunk-start
+    - splunk-start
     - timetravel

@@ -1,6 +1,7 @@
 [prod_hosts]
-alpha-vops-20191009-1.botn.me 
-crocco.botn.me
+od-botn-conf19-01.splunkoxygen.com
+od-botn-conf19-02.splunkoxygen.com
+od-botn-conf19-03.splunkoxygen.com
 
 [prod_hosts:vars]
 ansible_user=ec2-user 
